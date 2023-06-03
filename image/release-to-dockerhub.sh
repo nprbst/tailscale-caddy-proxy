@@ -5,7 +5,8 @@ USERNAME=nprbst
 # image name
 IMAGE=tailscale-caddy-proxy
 # platforms
-PLATFORM=linux/arm64,linux/amd64,linux/arm/v7
+# PLATFORM=linux/arm64,linux/amd64,linux/arm/v7
+PLATFORM=linux/amd64
 # bump version
 #docker run --rm -v "$PWD":/app treeder/bump patch
 version=`awk -F "=" '/TAILSCALE_VERSION=/{print $NF}' Dockerfile`
