@@ -1,7 +1,7 @@
 set -ex
 # SET THE FOLLOWING VARIABLES
 # docker hub username
-USERNAME=hollie
+USERNAME=nprbst
 # image name
 IMAGE=tailscale-caddy-proxy
 # platforms
